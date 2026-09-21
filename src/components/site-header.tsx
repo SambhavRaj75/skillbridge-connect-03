@@ -38,7 +38,7 @@ export function SiteHeader() {
             Recruiter
           </Link>
           <Link
-            to="/map"
+            to="/profile"
             className="inline-flex items-center justify-center font-mono text-[11px] uppercase tracking-[0.12em] px-3.5 py-2 rounded-[6px] bg-signal text-ink font-semibold hover:bg-signal/90 transition-colors"
           >
             Student

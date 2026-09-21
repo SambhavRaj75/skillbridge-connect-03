@@ -50,7 +50,7 @@ function Home() {
                   </p>
                   <div className="mt-8 flex flex-wrap items-center gap-3">
                     <Link
-                      to="/map"
+                      to="/profile"
                       className="inline-flex items-center gap-2 font-mono text-[12px] uppercase tracking-[0.1em] rounded-[8px] bg-signal text-ink font-semibold py-2 pr-4 pl-3 hover:bg-signal/90 transition-colors"
                     >
                       <span className="size-2 rounded-full bg-ink/70" /> Scan my skill gap
