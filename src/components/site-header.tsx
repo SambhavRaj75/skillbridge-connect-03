@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 
 const navLinks = [
   { to: "/map", label: "Map" },
+  { to: "/profile", label: "My Profile" },
   { to: "/openings", label: "Openings" },
   { to: "/partners", label: "Partners" },
 ] as const;
@@ -37,7 +38,7 @@ export function SiteHeader() {
             Recruiter
           </Link>
           <Link
-            to="/map"
+            to="/profile"
             className="inline-flex items-center justify-center font-mono text-[11px] uppercase tracking-[0.12em] px-3.5 py-2 rounded-[6px] bg-signal text-ink font-semibold hover:bg-signal/90 transition-colors"
           >
             Student
