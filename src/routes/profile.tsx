@@ -24,7 +24,7 @@ export const Route = createFileRoute("/profile")({
       { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
-  component: ProfilePage;
+  component: ProfilePage,
 });
 
 const locations = ["", "Bengaluru", "Pune", "Remote", "Hyderabad"] as const;
